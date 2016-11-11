@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight=".33" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/SummaryTextView"
+            android:text="@string/Niveau1Summary_txt"
+            android:gravity="left"
+            android:layout_weight=".33"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight=".33" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ToggleButton
+            android:id="@+id/btn_lechantierradio"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".44"
+            android:fontFamily="cursive"
+            android:textSize="14sp"
+            android:textOn="&lt;&lt; Le Chantier &gt;&gt;"
+            android:textOff="Le Chantier"
+            android:onClick="onToggle"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_weight=".11" />
+
+
+        <ToggleButton
+            android:id="@+id/btn_lapatisserieradio"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".44"
+            android:fontFamily="cursive"
+            android:textSize="14sp"
+            android:textOn="&lt;&lt; La Patisserie &gt;&gt;"
+            android:textOff="La Patisserie"
+            android:onClick="onToggle"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/textView9" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/MsgTextView"
+            android:layout_weight="2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InfoImageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>

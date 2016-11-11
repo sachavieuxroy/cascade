@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">cascade</string>
+    <string name="summary_txt">
+            <![CDATA[
+            PROFILE ET OBJECTIFS DU LOGICIELS<br/>
+            &lt;&lt;LA CASCADE&gt;&gt;<br/><br/>
+
+            Programme s\'addressant a des enfants presentens des troubles attentionels, des deficits des memorisation, des diffucultes d\'origine neuroligique. Il met en jeu les processus cognitifs et les notions suivantes : association, logique, memorisation, denombrement. Il permet de travailler la notion de liens dans le raisonnement pour conduire en processus a son terme a l\'aide de consignes. Il stimule la permanence de la pensee par un mecanisme d\'enchainement et l\'itulisation d\'outil.]]>
+    </string>
+
+    <string name="Niveau1Summary_txt">
+        <![CDATA[
+        Choisir un thème puis cliquez sur le bouton pour lancer l\'exercice
+        ]]>
+    </string>
+
+    <string name="lechantier_help_txt">
+         <![CDATA[
+        Ta mère veux bien te faire la tarte aux pommes que tu lui demandes. Elle s\'aperçoit qu\'il lui manque quelques produits. Peux-tu aller les chercher ? Elle a besoin de :
+        ]]>
+    </string>
+
+    <string name="lapatisserie_help_txt">
+         <![CDATA[
+        Ta mère veux bien te faire la tarte aux pommes que tu lui demandes. Elle s\'aperçoit qu\'il lui manque quelques produits. Peux-tu aller les chercher ? Elle a besoin de :
+        ]]>
+    </string>
+</resources>

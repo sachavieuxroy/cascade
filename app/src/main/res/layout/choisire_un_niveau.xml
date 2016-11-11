@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ToggleButton
+            android:id="@+id/btn_niveau1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            android:fontFamily="cursive"
+            android:textSize="14sp"
+            android:textOn="NIVEAU 1"
+            android:textOff="NIVEAU 1"/>
+
+        <ToggleButton
+            android:id="@+id/btn_niveau2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            android:fontFamily="cursive"
+            android:textSize="14sp"
+            android:textOn="NIVEAU 2"
+            android:textOff="NIVEAU 2"/>
+
+
+        <ToggleButton
+            android:id="@+id/btn_niveau3"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            android:fontFamily="cursive"
+            android:textSize="14sp"
+            android:textOn="NIVEAU 2"
+            android:textOff="NIVEAU 2"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MessagetextView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/SummaryTextView"
+            android:background="@color/colorPrimary"
+            android:textSize="12dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:text="@string/summary_txt" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="Prochaine Etape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextbutton" />
+
+    <TextView
+        android:text="Choisissez un niveau"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ChoisireUnNiveautextView"
+        android:gravity="bottom|center_horizontal"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

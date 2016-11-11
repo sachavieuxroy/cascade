@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Quiter"
+        android:id="@+id/QuitButton"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always|withText"
+        android:enabled="true"
+         />
+    <item
+        android:checkable="true"
+        android:enabled="true"
+        android:visible="true"
+        android:title="Sound"
+        android:id="@+id/SoundButton"
+        android:icon="@drawable/ic_minimal_speaker_icon_2"
+        android:checked="true"
+        app:showAsAction="always" />
+</menu>
